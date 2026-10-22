@@ -8,12 +8,14 @@
   max-width: 400px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #f5f7fa 0%, #a0c1f7 100%);
 }
 
 .otp-title {
-  color: #afb1b4;
-  margin-bottom: 10px;
+  color: black;
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 40px;
 }
 
 .otp-display-wrapper {
@@ -27,7 +29,7 @@
   background-color: #fff;
   padding: 15px;
   border-radius: 8px;
-  border: 2px dashed #cbd5e0;
+  border: 2px dashed gray;
 }
 
 .otp-display.active {
@@ -36,7 +38,7 @@
 }
 
 .otp-display.placeholder {
-  color: #718096;
+  color: #676d75;
   letter-spacing: normal;
 }
 
@@ -56,7 +58,7 @@
 }
 
 .expired-timer {
-  color: #a0aec0;
+  color: #7e8896;
   font-style: italic;
 }
 

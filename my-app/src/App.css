@@ -51,12 +51,6 @@
   font-weight: bold;
 }
 
-.timer-badge {
-  padding: 2px 8px;
-  background-color: #fed7d7;
-  border-radius: 4px;
-}
-
 .expired-timer {
   color: #7e8896;
   font-style: italic;

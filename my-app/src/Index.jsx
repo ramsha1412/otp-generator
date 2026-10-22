@@ -32,7 +32,7 @@ export const OTPGenerator = () => {
 
   return (
     <div className="otp-container">
-      <h1 className="otp-title">OTP Generator</h1>
+      <h1 className="otp-title">OTP GENERATOR</h1>
       
       <div className="otp-display-wrapper">
         <h2 className={`otp-display ${otp ? "active" : "placeholder"}`}>
